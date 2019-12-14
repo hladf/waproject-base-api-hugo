@@ -37,7 +37,7 @@ async function bootstrap(): Promise<void> {
   const document = SwaggerModule.createDocument(app, swaggerOptions);
   SwaggerModule.setup('/swagger', app, document);
 
-  await app.listen(3001, '0.0.0.0', () => {
+  await app.listen(3000, '0.0.0.0', () => {
     console.log('******************************');
     console.log(`SERVER STARTED as ${NODE_ENV}`);
     console.log('******************************');

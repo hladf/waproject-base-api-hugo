@@ -5,8 +5,7 @@
   "private": true,
   "repository": {
     "type": "git",
-    "url": "https://github.com/hladf/waproject-base-api-hugo.git",
-    "seed": "git@bitbucket.org:waproject/teste-tecnico-api-hugo-api-api.git"
+    "url": "https://github.com/hladf/teste-tecnico-api-hugo.git"
   },
   "scripts": {
     "dev": "yarn ts-node-dev --inspect=0.0.0.0:9229 --respawn --no-notify --transpileOnly --no-deps --project tsconfig.dev.json ./src/index.ts",
